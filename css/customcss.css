@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(255, 244, 244, 0.769);
+    color:black;
+    font-family:'Times New Roman', Times, serif
+}
+h1, h2, h3, h4, h5, h6{
+    color:pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.main-content{
+    margin-left: 220px;
+    padding: 20px;
+}
+.sidebar{
+    background-color: pink;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    padding: 15px;
+    position: fixed;
+}
+.sidebar ul{
+list-style: none;
+padding: 0;
+}
+.sidebar ul li{
+    margin: 15px 0;
+}
+.sidebar ul li{
+    color: white;
+}
+.sidebarul li a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.box-model{
+    padding: 15px;
+    background-color: lightblue;
+    border:5px solid yellow;
+    margin: 20px;
+}
